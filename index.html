@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OG-C Pickleball</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="logo-text">OG-C Pickleball</span>
+      <nav>
+        <a href="index.html" class="nav-link active">🏠Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <!-- Rotating pickleball background -->
+    <div class="ball-wrapper">
+      <div class="pickleball-bg" id="ball">
+        <!-- SVG pickleball texture -->
+        <svg class="ball-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+          <!-- Ball base is yellow via CSS -->
+          <!-- Pickleball holes pattern -->
+          <!-- Holes scattered across the ball -->
+          <g fill="#c8a800" opacity="0.45">
+            <!-- Row 1 -->
+            <circle cx="233" cy="120" r="25"/>
+            <circle cx="366" cy="120" r="25"/>
+
+            <!-- Row 2 -->
+            <circle cx="100" cy="240" r="25"/>
+            <circle cx="233" cy="240" r="25"/>
+            <circle cx="366" cy="240" r="25"/>
+            <circle cx="500" cy="240" r="25"/>
+
+            <!-- Row 3 -->
+            <circle cx="100" cy="360" r="25"/>
+            <circle cx="233" cy="360" r="25"/>
+            <circle cx="366" cy="360" r="25"/>
+            <circle cx="500" cy="360" r="25"/>
+
+            <!-- Row 4 -->
+            <circle cx="233" cy="480" r="25"/>
+            <circle cx="366" cy="480" r="25"/>
+
+          </g>
+        </svg>
+      </div>
+
+      <!-- The 5 clickable card circles arranged within the ball -->
+      <div class="cards-layer">
+
+        <a href="coaching.html" class="card-circle card-1">
+          <div class="card-inner">
+            <div class="card-icon">🎯</div>
+            <span class="card-label">Coaching 1-on-1</span>
+          </div>
+        </a>
+
+        <a href="drilling.html" class="card-circle card-2">
+          <div class="card-inner">
+            <div class="card-icon">🤖</div>
+            <span class="card-label">Drilling with Ball Machine</span>
+          </div>
+        </a>
+
+        <a href="doubles.html" class="card-circle card-3">
+          <div class="card-inner">
+            <div class="card-icon">✌️</div>
+            <span class="card-label">Regular Doubles Games</span>
+          </div>
+        </a>
+
+        <a href="singles.html" class="card-circle card-4">
+          <div class="card-inner">
+            <div class="card-icon">⚡</div>
+            <span class="card-label">Regular Singles Games</span>
+          </div>
+        </a>
+
+        <a href="about.html" class="card-circle card-5">
+          <div class="card-inner">
+            <div class="card-icon">👤</div>
+            <span class="card-label">About the OG-C</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="hero-tagline">
+      <h1>Welcome to OG-C Pickleball</h1>
+      <p>Select a card to explore what's available</p>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
